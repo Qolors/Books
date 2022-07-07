@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Book Mate</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="skeleton.css">
+  <link rel="stylesheet" href="custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <logo>
+    <h3>Book Mate<span class="material-symbols-rounded">menu_book</span></h3>
+  </logo>
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 5%;text-align:center;">
+        <h3>A fast and easy-to-use library for tracking your reading.</h3>
+        <lord-icon
+            src="https://cdn.lordicon.com/wxnxiano.json"
+            trigger="hover"
+            colors="primary:#121331,secondary:#16a9c7"
+            stroke="45"
+            state="hover"
+            style="width:150px;height:150px">
+        </lord-icon>
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 15%">
+        <h2 style="font-weight: bold;">Anything New?</h2>
+        <h5>Add it to your collection..</h5>
+      </div>
+    </div>
+    <div class="form-styler">
+      <div class="container">
+        <form>
+          <div class="row">
+            <div class="six columns">
+              <label for="title">Book Title</label>
+              <input class="u-full-width" type="text" placeholder="Of Mice and Men" id="title">
+            </div>
+            <div class="six columns">
+              <label for="author">Author</label>
+              <input class="u-full-width" type="text" placeholder="John Steinbeck" id="author">
+            </div>
+          </div>
+          <div class="row">
+            <div class="six columns">
+              <label for="length">How Long?</label>
+              <input class="u-full-width" type="text" placeholder="Total Page Count" id="length">
+            </div>
+            <div class="six columns">
+              <label for="readStat">Status</label>
+              <select class="u-full-width" id="readStat">
+                <option value="Option 1">I have read</option>
+                <option value="Option 2">I have <em>not</em> read</option>
+              </select>
+            </div>
+          </div>
+          <input class="button-primary" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 5%;">
+        <h1 style="text-align: center;">Your Current Readings</h1>
+        <table class="u-full-width" style="background-color: rgba( 255, 255, 255, 0.4);">
+          <thead>
+            <tr>
+              <th>Book</th>
+              <th>Author</th>
+              <th>Page Count</th>
+              <th>Completed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Of Mice and Men</td>
+              <td>John Steinbeck</td>
+              <td>356 pages</td>
+              <td><span class="material-symbols-rounded">done</span></td>
+            </tr>
+            <tr>
+              <td>War and Peace</td>
+              <td>Leop Tolstoy</td>
+              <td>1,225 pages</td>
+              <td><span class="material-symbols-rounded">Close</span></td>
+            </tr>
+            <tr>
+              <td>The Library Book</td>
+              <td>Susan Orlean</td>
+              <td>319 pages</td>
+              <td><span class="material-symbols-rounded">done</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+  </div>
+  <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
